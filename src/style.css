@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+a {
+    text-decoration: none;
+}
