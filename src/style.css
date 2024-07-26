@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select,input {
+    padding: 16px;
+    font-size: 18px;
+    margin: 8px;
+}
+
+button {
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px #000;
+}
+
+body{
+    text-align: center;
+}
+
+.light {
+    background-color: #c7d0b5;
+}
+
+.dark {
+    background-color: #066e2e;
+}
+
+.container {
+    max-width: 1720px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
